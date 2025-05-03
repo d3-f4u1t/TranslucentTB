@@ -39,7 +39,7 @@ private:
 	void open();
 
 	template<typename T>
-	void write(const T &thing);
+	void write(const T& thing);
 };
 
 using lazy_file_sink_mt = lazy_file_sink<std::mutex>;
